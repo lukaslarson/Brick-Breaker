@@ -16,12 +16,31 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="INFO" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03dcb04e-f5e0-44cf-84f2-5885df829675" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="03dcb04e-f5e0-44cf-84f2-5885df829675" name="Default" comment="20120407">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment3/Assignment3.apk.res" afterPath="$PROJECT_DIR$/out/production/Assignment3/Assignment3.apk.res" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment3/Assignment3.apk.unaligned" afterPath="$PROJECT_DIR$/out/production/Assignment3/Assignment3.apk.unaligned" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment3/Assignment3.apk" afterPath="$PROJECT_DIR$/out/production/Assignment3/Assignment3.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment3/classes.dex" afterPath="$PROJECT_DIR$/out/production/Assignment3/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/Assignment3Activity$1.class" afterPath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/Assignment3Activity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/Assignment3Activity.class" afterPath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/Assignment3Activity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/Brick.class" afterPath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/Brick.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/CanvasThread.class" afterPath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/CanvasThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/GameOver.class" afterPath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/GameOver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/Panel.class" afterPath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/Panel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/R$anim.class" afterPath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/R$anim.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/R$attr.class" afterPath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/R$drawable.class" afterPath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/R$id.class" afterPath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/R$layout.class" afterPath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/R$menu.class" afterPath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/R$raw.class" afterPath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/R$string.class" afterPath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/R.class" afterPath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/SQLiteHandler.class" afterPath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/SQLiteHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/SoundManager.class" afterPath="$PROJECT_DIR$/out/production/Assignment3/com/luklar9/assignment3/SoundManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignment3.iml" afterPath="$PROJECT_DIR$/Assignment3.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/luklar9/assignment3/Assignment3Activity.java" afterPath="$PROJECT_DIR$/src/com/luklar9/assignment3/Assignment3Activity.java" />
     </list>
     <ignored path="Assignment3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,7 +101,7 @@
       <file leaf-file-name="Assignment3Activity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/luklar9/assignment3/Assignment3Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="34" selection-start="2371" selection-end="2371" vertical-scroll-proportion="0.9334319">
+            <state line="37" column="34" selection-start="926" selection-end="926" vertical-scroll-proportion="0.1641791">
               <folding>
                 <element signature="e#982#1415#0" expanded="true" />
                 <element signature="e#1408#1409#0" expanded="true" />
@@ -224,7 +243,7 @@
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="false" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="0" id="Add" />
@@ -342,6 +361,20 @@
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Android Application.Assignment3">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -350,6 +383,56 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings">
+          <MavenGeneralSettings>
+            <option name="checksumPolicy" value="FAIL" />
+            <option name="failureBehavior" value="FAST" />
+            <option name="localRepository" value="" />
+            <option name="mavenHome" value="" />
+            <option name="nonRecursive" value="false" />
+            <option name="pluginUpdatePolicy" value="DO_NOT_UPDATE" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="snapshotUpdatePolicy" value="ALWAYS_UPDATE" />
+            <option name="usePluginRegistry" value="false" />
+            <option name="userSettingsFile" value="" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="jreName" value="#JAVA_INTERNAL" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -375,6 +458,19 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="GriffonRunConfigurationType" factoryName="Griffon">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="true" />
+      <setting name="passParentEnv" value="true" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -384,6 +480,27 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -553,6 +670,11 @@
       <created>1332849237970</created>
       <updated>1332849237970</updated>
     </task>
+    <task id="LOCAL-00001" summary="20120407">
+      <created>1333828819945</created>
+      <updated>1333828819945</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -577,9 +699,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1926" height="1178" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297769" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -593,8 +715,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.084935896" sideWeight="0.68089235" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31910765" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.084935896" sideWeight="0.67022306" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31910765" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32602885" sideWeight="0.6979167" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -732,7 +854,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/luklar9/assignment3/Assignment3Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="34" selection-start="2371" selection-end="2371" vertical-scroll-proportion="0.9334319">
+        <state line="37" column="34" selection-start="926" selection-end="926" vertical-scroll-proportion="0.1641791">
           <folding>
             <element signature="e#982#1415#0" expanded="true" />
             <element signature="e#1408#1409#0" expanded="true" />
@@ -780,7 +902,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>Android 2.1 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
