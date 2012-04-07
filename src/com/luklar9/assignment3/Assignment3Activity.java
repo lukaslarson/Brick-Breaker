@@ -68,7 +68,7 @@ public class Assignment3Activity extends Activity
                 CanvasThread.pause();
                 break;
             case R.id.menu_restart:
-                Log.w("asdf", "asdf");
+                Log.w("asdf", "lollers");
                 break;
         }
         return true;
