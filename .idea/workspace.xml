@@ -78,7 +78,7 @@
       <file leaf-file-name="Assignment3Activity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/luklar9/assignment3/Assignment3Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="31" selection-start="2367" selection-end="2367" vertical-scroll-proportion="0.88169867">
+            <state line="50" column="66" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.2628918">
               <folding>
                 <element signature="e#982#1415#0" expanded="true" />
                 <element signature="e#1408#1409#0" expanded="true" />
@@ -554,7 +554,11 @@
       <created>1333829061219</created>
       <updated>1333829061219</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="20120407">
+      <created>1333829812955</created>
+      <updated>1333829812955</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -579,7 +583,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -595,7 +599,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08444682" sideWeight="0.68089235" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08444682" sideWeight="0.68089235" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31827113" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32602885" sideWeight="0.6979167" order="3" side_tool="false" content_ui="tabs" />
@@ -734,7 +738,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/luklar9/assignment3/Assignment3Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="31" selection-start="2367" selection-end="2367" vertical-scroll-proportion="0.88169867">
+        <state line="50" column="66" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.2628918">
           <folding>
             <element signature="e#982#1415#0" expanded="true" />
             <element signature="e#1408#1409#0" expanded="true" />
