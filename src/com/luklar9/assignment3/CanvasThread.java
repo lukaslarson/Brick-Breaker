@@ -1,35 +1,26 @@
 package com.luklar9.assignment3;
 
 import android.graphics.Canvas;
-import android.view.MotionEvent;
 import android.view.SurfaceHolder;
-import android.widget.Toast;
 
-/**
- * Created by IntelliJ IDEA.
- * User: Chokis
- * Date: 2012-03-27
- * Time: 14:45
- * To change this template use File | Settings | File Templates.
- */
 public class CanvasThread extends Thread {
-    public static SurfaceHolder _surfaceHolder;
-    private Panel _panel;
-    public boolean _run = false;
+    private static SurfaceHolder surfaceholder;
+    private Panel panel;
+    private boolean _run = false;
     private static boolean running = false;
 
     public CanvasThread(SurfaceHolder surfaceHolder, Panel panel) {
-        _surfaceHolder = surfaceHolder;
-        _panel = panel;
-
+        this.surfaceholder = surfaceHolder;
+        this.panel = panel;
     }
 
     public void setRunning(boolean run) {
         _run = run;
     }
 
+    // starts/stops drawing
     public static void pause() {
-        synchronized (_surfaceHolder) {
+        synchronized (surfaceholder) {
             if (running)  {
                 running = false;
             }
@@ -38,36 +29,32 @@ public class CanvasThread extends Thread {
         }
     }}
 
-    public static void restart() {
-        synchronized (_surfaceHolder) {
-
+    // only starts drawing
+    public static void justStart() {
+        synchronized (surfaceholder) {
                 running = true;
-
         }}
 
     @Override
     public void run() {
         Canvas c;
-        int i = 0;
         while (_run) {
             c = null;
             try {
-                if (i<250) {
-                    i++;
-                }
-                c = _surfaceHolder.lockCanvas(null);
-                synchronized (_surfaceHolder) {
+                // lock the canvas for drawing
+                c = surfaceholder.lockCanvas(null);
+                synchronized (surfaceholder) {
                     if (running) {
-                        _panel.onDraw(c, i);
+                        panel.onDraw(c);
                     }
 
                 }
             }   finally {
                 if (c != null) {
-                    _surfaceHolder.unlockCanvasAndPost(c);
+                    // unlock it and post to screen
+                    surfaceholder.unlockCanvasAndPost(c);
                 }
             }
         }
     }
-
 }

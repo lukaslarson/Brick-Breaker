@@ -1,15 +1,9 @@
 package com.luklar9.assignment3;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Chokis
- * Date: 2012-04-05
- * Time: 17:22
- * To change this template use File | Settings | File Templates.
- */
-public final class SQLiteHandler {
-    public static String name;
-    public static int score;
+// this class will handle a high-score database
+final class SQLiteHandler {
+    private static String name;
+    private static int score;
 
     public static int getScore() {
         return score;

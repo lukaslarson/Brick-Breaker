@@ -24,14 +24,13 @@ public final class R {
         public static final int gameover=0x7f080000;
         public static final int gameover2=0x7f080001;
         public static final int gameover3=0x7f080002;
-        public static final int menu_restart=0x7f08000b;
-        public static final int menu_start=0x7f08000a;
-        public static final int name=0x7f080009;
-        public static final int start=0x7f080007;
-        public static final int start2=0x7f080008;
-        public static final int text=0x7f080003;
-        public static final int text2=0x7f080004;
-        public static final int text3=0x7f080006;
+        public static final int lives=0x7f080003;
+        public static final int menu_restart=0x7f08000a;
+        public static final int menu_start=0x7f080009;
+        public static final int name=0x7f080008;
+        public static final int score=0x7f080004;
+        public static final int start=0x7f080006;
+        public static final int start2=0x7f080007;
     }
     public static final class layout {
         public static final int gameover=0x7f030000;

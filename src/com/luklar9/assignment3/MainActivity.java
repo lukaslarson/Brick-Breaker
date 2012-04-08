@@ -2,25 +2,34 @@ package com.luklar9.assignment3;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.*;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
-public class Assignment3Activity extends Activity
+public class MainActivity extends Activity
 {
     /** Called when the activity is first created. */
 
-    static WindowManager wm;
-    public float touched_x;
-    public static TextView midScreenTV;
+    private static WindowManager wm;
+    private static TextView livesTV;
+    private static TextView scoreTV;
     private EditText nameET;
 
+    public static Handler handler = new Handler() {
+        @Override
+        public void handleMessage(Message msg) {
+            int lives = msg.getData().getInt("lives");
+            int score = msg.getData().getInt("score");
+
+            livesTV.setText("Remaining lives: " + lives);
+            scoreTV.setText("Score: " + score);
+        }
+    };
 
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -36,6 +45,7 @@ public class Assignment3Activity extends Activity
 
     }
 
+    //
     private View.OnKeyListener onSoftKeyboardDonePress=new View.OnKeyListener()
     {
         public boolean onKey(View v, int keyCode, KeyEvent event)
@@ -54,10 +64,13 @@ public class Assignment3Activity extends Activity
     public boolean onTouchEvent( MotionEvent e )
     {
         setContentView(R.layout.main);
-        midScreenTV = (TextView) findViewById(R.id.text3);
-        midScreenTV.setText(" ");
+        livesTV = (TextView) findViewById(R.id.lives);
+        scoreTV = (TextView) findViewById(R.id.score);
         SQLiteHandler.setName("" + nameET.getText());
-        CanvasThread.restart();
+
+
+
+        CanvasThread.justStart();
         return true;
     }
 
@@ -68,15 +81,22 @@ public class Assignment3Activity extends Activity
                 CanvasThread.pause();
                 break;
             case R.id.menu_restart:
-                Log.w("asdghfgf", "lollers");
+                //don't do anything just yet..
                 break;
         }
         return true;
     }
 
+    public static void updateLives (int lives) {
+        livesTV.setText("Remaining lives: " + lives);
+    }
+
+    public static void updateScore (int score) {
+        scoreTV.setText("Score: " + score);
+    }
 
     public static void updateDM (DisplayMetrics dm){
-    wm.getDefaultDisplay().getMetrics(dm);
+        wm.getDefaultDisplay().getMetrics(dm);
     }
 
     public boolean onCreateOptionsMenu(Menu menu){
@@ -84,5 +104,7 @@ public class Assignment3Activity extends Activity
         inflater.inflate(R.menu.menu, menu);
         return true;
     }
-              //test github pc
+
+
+
 }
