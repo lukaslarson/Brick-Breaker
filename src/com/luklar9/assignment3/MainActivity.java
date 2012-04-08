@@ -20,6 +20,7 @@ public class MainActivity extends Activity
     private static TextView scoreTV;
     private EditText nameET;
 
+    // handler to update textviews from other thread
     public static Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -40,12 +41,9 @@ public class MainActivity extends Activity
 
         nameET = (EditText)findViewById(R.id.name);
         nameET.setOnKeyListener(onSoftKeyboardDonePress);
-
-
-
     }
 
-    //
+    // fix DONE button on the text input
     private View.OnKeyListener onSoftKeyboardDonePress=new View.OnKeyListener()
     {
         public boolean onKey(View v, int keyCode, KeyEvent event)
@@ -68,13 +66,12 @@ public class MainActivity extends Activity
         scoreTV = (TextView) findViewById(R.id.score);
         SQLiteHandler.setName("" + nameET.getText());
 
-
-
+        // run it
         CanvasThread.justStart();
         return true;
     }
 
-
+    // a menu to pause and... yeah. pause.
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_start:
@@ -87,24 +84,25 @@ public class MainActivity extends Activity
         return true;
     }
 
+    // update the lives TextView from the canvasthread
     public static void updateLives (int lives) {
         livesTV.setText("Remaining lives: " + lives);
     }
 
+    // update the score TextView from the canvasthread
     public static void updateScore (int score) {
         scoreTV.setText("Score: " + score);
     }
 
+    // get screen size
     public static void updateDM (DisplayMetrics dm){
         wm.getDefaultDisplay().getMetrics(dm);
     }
 
+    // set the menu
     public boolean onCreateOptionsMenu(Menu menu){
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu, menu);
         return true;
     }
-
-
-
 }

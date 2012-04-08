@@ -16,17 +16,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03dcb04e-f5e0-44cf-84f2-5885df829675" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Chokis\Brick-Breaker\out\production\Assignment3\com\luklar9\assignment3\Assignment3Activity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chokis\Brick-Breaker\out\production\Assignment3\com\luklar9\assignment3\Assignment3Activity.class" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Chokis\Brick-Breaker\src\com\luklar9\assignment3\Assignment3Activity.java" afterPath="$PROJECT_DIR$/src/com/luklar9/assignment3/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/luklar9/assignment3/R.java" afterPath="$PROJECT_DIR$/gen/com/luklar9/assignment3/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/luklar9/assignment3/CanvasThread.java" afterPath="$PROJECT_DIR$/src/com/luklar9/assignment3/CanvasThread.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/luklar9/assignment3/GameOver.java" afterPath="$PROJECT_DIR$/src/com/luklar9/assignment3/GameOver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/luklar9/assignment3/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/luklar9/assignment3/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/luklar9/assignment3/Panel.java" afterPath="$PROJECT_DIR$/src/com/luklar9/assignment3/Panel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/luklar9/assignment3/SQLiteHandler.java" afterPath="$PROJECT_DIR$/src/com/luklar9/assignment3/SQLiteHandler.java" />
     </list>
     <ignored path="Assignment3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -114,7 +107,7 @@
       <file leaf-file-name="Panel.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/luklar9/assignment3/Panel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="235" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.8513732">
+            <state line="49" column="31" selection-start="1712" selection-end="1712" vertical-scroll-proportion="-7.876582">
               <folding />
             </state>
           </provider>
@@ -123,7 +116,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/luklar9/assignment3/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="130" selection-start="0" selection-end="2920" vertical-scroll-proportion="0.0">
+            <state line="42" column="57" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,7 +125,7 @@
       <file leaf-file-name="CanvasThread.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/luklar9/assignment3/CanvasThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="100" selection-start="0" selection-end="1500" vertical-scroll-proportion="0.0">
+            <state line="17" column="51" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,7 +134,7 @@
       <file leaf-file-name="GameOver.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/luklar9/assignment3/GameOver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="0" selection-end="1162" vertical-scroll-proportion="0.0">
+            <state line="33" column="5" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -182,7 +175,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="LINE_SEPARATORS_CONVERSION" value="ASK" />
+    <option name="LINE_SEPARATORS_CONVERSION" value="NONE" />
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -200,11 +193,11 @@
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/luklar9/assignment3/Assignment3Activity.java" />
-        <option value="$PROJECT_DIR$/src/com/luklar9/assignment3/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/com/luklar9/assignment3/CanvasThread.java" />
-        <option value="$PROJECT_DIR$/src/com/luklar9/assignment3/Panel.java" />
         <option value="$PROJECT_DIR$/src/com/luklar9/assignment3/SQLiteHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/luklar9/assignment3/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/com/luklar9/assignment3/GameOver.java" />
+        <option value="$PROJECT_DIR$/src/com/luklar9/assignment3/Panel.java" />
       </list>
     </option>
   </component>
@@ -667,7 +660,11 @@
       <created>1333830389069</created>
       <updated>1333830389069</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="20120407">
+      <created>1333911509905</created>
+      <updated>1333911509905</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -696,7 +693,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297769" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32602885" sideWeight="0.6820866" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32602885" sideWeight="0.6742126" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297244" sideWeight="0.49599144" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -802,9 +799,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/gameover.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/luklar9/assignment3/SQLiteHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="1" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -816,11 +813,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="32" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="39" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/menu/menu.xml">
@@ -830,42 +825,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/luklar9/assignment3/SQLiteHandler.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/gameover.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
+        <state line="1" column="1" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="39" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/luklar9/assignment3/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="130" selection-start="0" selection-end="2920" vertical-scroll-proportion="0.0">
+        <state line="28" column="32" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/luklar9/assignment3/CanvasThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="100" selection-start="0" selection-end="1500" vertical-scroll-proportion="0.0">
+        <state line="17" column="51" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/luklar9/assignment3/GameOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="0" selection-end="1162" vertical-scroll-proportion="0.0">
+        <state line="33" column="5" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luklar9/assignment3/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="57" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/luklar9/assignment3/Panel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="235" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.8513732">
+        <state line="49" column="31" selection-start="1712" selection-end="1712" vertical-scroll-proportion="-7.876582">
           <folding />
         </state>
       </provider>

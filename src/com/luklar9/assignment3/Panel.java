@@ -48,7 +48,6 @@ public class Panel extends SurfaceView implements SurfaceHolder.Callback {
         // get the finger x-position to update the paddle every onDraw
         touched_x = e.getX();
         //touched_y = e.getY();
-
         return true;
     }
 

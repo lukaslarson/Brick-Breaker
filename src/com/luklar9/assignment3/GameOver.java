@@ -31,8 +31,5 @@ public class GameOver extends Activity {
             winningTV.setText("Game over," + nameContainer + " :/");
         }
         scoreTV.setText("Score: " + i.getExtras().get("score").toString());
-
-
     }
-
 }
